@@ -1,0 +1,27 @@
+// resolutions
+$middlescreen: 1660px;
+$macbookair: 1440px;
+$bignotebooks: 1280px;
+$notebooks: 1160px;
+$netbooks: 1023px;
+$tablets: 823px;
+$minitablets: 602px;
+$phones: 480px;
+$minphones: 360px;
+$iphones: 320px;
+$phonesminheight: 415px;
+$phonesmaxheight: 823px;
+$pixel: 411px;
+$iphonex: 375px;
+$vpheight: 880px;
+$vpheightmin: 720px;
+//normalize
+@import "config/normalize/import-now";
+//media
+@import "layout/_media";
+//config
+@import "config/_variables";
+@import "config/_mixins";
+//vendors
+//layout
+@import "layout/_fonts";
